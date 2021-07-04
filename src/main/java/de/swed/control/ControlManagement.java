@@ -1,6 +1,7 @@
 package de.swed.control;
 
 import de.swed.order.Order;
+import de.swed.rest.DBConnector;
 import de.swed.user.Rating;
 
 import java.util.ArrayList;
@@ -9,10 +10,10 @@ import java.util.List;
 public class ControlManagement {
 
     private List<Cost> costs = new ArrayList<>();
-    private rest.DBConnector dbConnector;
+    private DBConnector dbConnector;
 
     public List<Order> getAllOrders() {
-        return new ArrayList<Order>();
+        return new ArrayList<>();
     }
 
     public double getRevenuePerUser(Long userId) {
@@ -24,7 +25,7 @@ public class ControlManagement {
     }
 
     public List<Rating> collectSuggestions() {
-        return new ArrayList<Rating>();
+        return new ArrayList<>();
     }
 
     public List<Cost> getAllCost() {
