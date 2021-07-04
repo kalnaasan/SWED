@@ -45,9 +45,20 @@ public class Order {
         this.orderDate = orderDate;
     }
 
-    public void addTracking(tracking Tracking){}
-    public void createPaymentDetails(){}
-    public void updatePaymentDetails(paymentDetails PaymentDetails){}
-    private double calcDistance(pickupAddress Address, deliveryAddress Address){return this.distance;}
-    public double calcPrice(){return this.price;}
+    public void addTracking(Tracking tracking) {
+    }
+
+    public void createPaymentDetails() {
+    }
+
+    public void updatePaymentDetails(PaymentDetails paymentDetails) {
+    }
+
+    private double calcDistance(Address pickupAddress, Address deliveryAddress) {
+        return this.distance;
+    }
+
+    public double calcPrice() {
+        return this.price;
+    }
 }

@@ -1,13 +1,11 @@
-package rest;
+package de.swed.rest;
 
 public class DBConnector {
-	public Object readFRom(long id) {
-		Object object = null;
-		return object;
-		
-	}
-	public void writeTo(Object object) {
-		
-	}
+    public Object readFRom(long id) {
+        return null;
+    }
+
+    public void writeTo(Object object) {
+    }
 
 }

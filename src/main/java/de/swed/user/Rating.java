@@ -7,28 +7,28 @@ public class Rating {
 
     //set methods
 
-    public void setStars(int stars){
+    public void setStars(int stars) {
         this.stars = stars;
     }
 
-    public void setUser(Customer user){
+    public void setUser(Customer user) {
         this.user = user;
     }
 
-    public void setImprovementSuggestions(String is){
+    public void setImprovementSuggestions(String is) {
         this.improvementSuggestions = is;
     }
 
     //get methods
-    public int getStars(){
+    public int getStars() {
         return stars;
     }
 
-    public Customer getUser(){
+    public Customer getUser() {
         return user;
     }
 
-    public String getImprovementSuggestions(){
+    public String getImprovementSuggestions() {
         return improvementSuggestions;
     }
 

@@ -2,7 +2,9 @@ package de.swed.payment;
 
 import de.swed.user.Customer;
 
-public class payment{
+public class Payment {
 
-    public boolean makePayment(double price, customer Customer){}
+    public boolean makePayment(double price, Customer customer) {
+        return false;
+    }
 }

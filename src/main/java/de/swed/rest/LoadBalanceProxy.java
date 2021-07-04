@@ -1,9 +1,8 @@
-package rest;
+package de.swed.rest;
 
 public class LoadBalanceProxy {
-	private RESTAPI restapi;
-	
-	public void connectToRestApi() {
-		
-	}
+    private RESTAPI restapi;
+
+    public void connectToRestApi() {
+    }
 }
